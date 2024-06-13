@@ -1,0 +1,108 @@
+.big-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #0f172a;
+}
+.elapsed-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.time-and-labelText-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 50px;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.time-and-seconds {
+  color: #0f172a;
+  font-size: 20px;
+}
+.label-text {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #0f172a;
+}
+.play-or-pause-icon {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.button-text {
+  color: #0f172a;
+  font-family: 'roboto';
+  font-size: 25px;
+}
+.play-or-pause-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.decreaseButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #0f172a;
+}
+.set-timer-limit-value-container {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  background-size: cover;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 40px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.timer-minute-value {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.increase-decrease-and-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.increase-decrease-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
